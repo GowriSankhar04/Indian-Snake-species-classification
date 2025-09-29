@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/languageSelectionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+
+    android:background="@color/black">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="32dp"
+        android:text="🐍"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvChooseLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/button"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnTamil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="தமிழ்"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/button"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnTelugu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="తెలుగు"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:backgroundTint="@color/button"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnHindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="हिंदी"
+        android:textSize="20sp"
+        android:padding="10dp"
+
+        android:backgroundTint="@color/button"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>

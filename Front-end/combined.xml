@@ -1,0 +1,84 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!-- Root overlay -->
+    <View
+        android:id="@+id/fadeOverlayRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:alpha="0"
+        android:visibility="gone" />
+
+    <!-- Main content area inside a FrameLayout -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Overlay for main content -->
+        <View
+            android:id="@+id/fadeOverlayMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:alpha="0"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/header_main"/>
+            <include layout="@layout/body_main"/>
+        </LinearLayout>
+
+        <!-- Blocker view goes above the main content -->
+        <View
+            android:id="@+id/blocker_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:visibility="gone"
+            android:clickable="true"
+            android:focusable="true" />
+    </FrameLayout>
+
+    <!-- Drawer menu (on the side) -->
+    <FrameLayout
+        android:id="@+id/menu_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        android:elevation="16dp">
+
+        <View
+            android:id="@+id/themeRevealOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@android:color/white" />
+
+        <!-- Overlay for drawer -->
+        <View
+            android:id="@+id/fadeOverlayDrawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:alpha="0"
+            android:visibility="gone"/>
+
+        <include
+            layout="@layout/menu_drawer"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"/>
+    </FrameLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

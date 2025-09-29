@@ -1,4 +1,4 @@
--> Contains python code for training the RESNET model to classify Indian snake species \n
--> Prediction gives the details about the predicted snake
--> The Front-end UI and Backend codes are also available
--> Developed as a multilingual mobile application and launched in playstore (closed testing)
+-> Contains python code for training the RESNET model to classify Indian snake species  
+-> Prediction gives the details about the predicted snake  
+-> The Front-end UI and Backend codes are also available  
+-> Developed as a multilingual mobile application and launched in playstore (closed testing)  

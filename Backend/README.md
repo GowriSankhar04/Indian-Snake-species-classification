@@ -1,6 +1,5 @@
 ---  
 Title: Indian Snake Classification  
-Emoji: 🐢  
 colorFrom: pink  
 colorTo: indigo  
 SDK: docker  

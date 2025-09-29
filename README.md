@@ -31,5 +31,5 @@ Real-time mobile app inference (currently in Closed Testing on Google Play Store
 Supports wildlife conservation and emergency identification
 
 🚀 How to Run  
-pip install -r requirements.txt
+pip install -r requirements.txt  
 python predict.py --image sample_snake.jpg

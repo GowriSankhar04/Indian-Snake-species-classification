@@ -1,4 +1,34 @@
--> Contains python code for training the RESNET model to classify Indian snake species  
--> Prediction gives the details about the predicted snake  
--> The Front-end UI and Backend codes are also available  
--> Developed as a multilingual mobile application and launched in playstore (closed testing)  
+🐍 Snake Species Classification – Mobile App
+📌 Problem
+
+Identify and classify Indian snake species from images to support wildlife safety and conservation.
+
+🔧 Methodology
+
+Collected and preprocessed snake image datasets
+
+Applied augmentation techniques (CutMix, SMOTE)
+
+Built and trained a ResNet deep learning model
+
+Deployed model on Hugging Face for inference
+
+Integrated model into a Kotlin Android App (real-time recognition)
+
+Developed as a multilingual app (languages: Tamil, English, Telugu, Hindi)
+
+Deployed the app in play store (closed testing)
+
+Preparing a research paper for publication
+
+📊 Results
+
+Achieved high accuracy on test set
+
+Real-time mobile app inference (currently in Closed Testing on Google Play Store)
+
+Supports wildlife conservation and emergency identification
+
+🚀 How to Run
+pip install -r requirements.txt
+python predict.py --image sample_snake.jpg

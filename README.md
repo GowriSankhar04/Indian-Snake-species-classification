@@ -26,7 +26,7 @@ Preparing a research paper for publication
 
 Achieved high accuracy on test set
 
-Real-time mobile app inference (launched on Google Play Store)
+Android app availabe on Google Play Store
 
 Supports wildlife conservation and emergency identification
 

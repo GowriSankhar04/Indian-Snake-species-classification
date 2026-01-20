@@ -28,6 +28,8 @@ Achieved high accuracy on test set
 
 Android app availabe on Google Play Store
 
+Link: https://play.google.com/store/apps/details?id=com.gs.slitherin
+
 Supports wildlife conservation and emergency identification
 
 🚀 How to Run  

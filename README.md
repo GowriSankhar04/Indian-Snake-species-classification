@@ -18,7 +18,7 @@ Integrated model into a Kotlin Android App (real-time recognition)
 
 Developed as a multilingual app (languages: Tamil, English, Telugu, Hindi)
 
-Deployed the app in play store (closed testing)
+Deployed the app on play store
 
 Preparing a research paper for publication
 
@@ -26,7 +26,7 @@ Preparing a research paper for publication
 
 Achieved high accuracy on test set
 
-Real-time mobile app inference (currently in Closed Testing on Google Play Store)
+Real-time mobile app inference (launched on Google Play Store)
 
 Supports wildlife conservation and emergency identification
 

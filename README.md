@@ -158,7 +158,7 @@ The dataset is distributed under the MIT License. See [THIRD_PARTY_LICENSES.md](
 
 ## License
 
-* Apache 2.0*
+* Apache 2.0 
 
 ---
 

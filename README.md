@@ -2,7 +2,7 @@
 
 Slitherin is an AI-powered mobile application that identifies Indian snake species from photographs using deep learning and computer vision. It's built to support wildlife conservation, public awareness, and faster, safer responses during snakebite incidents.
 
-📲 **Live on Google Play:** [com.gs.slitherin](https://play.google.com/store/apps/details?id=com.gs.slitherin)
+📲 **Live on Google Play:** [Play Store](https://play.google.com/store/apps/details?id=com.gs.slitherin)
 
 ---
 

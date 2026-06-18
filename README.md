@@ -128,11 +128,6 @@ To improve accessibility across India, the app supports:
 - Google Play Store release
 - Multilingual integration
 
-**🚧 In Progress**
-- Research paper preparation
-- Model enhancement
-- Additional species expansion
-
 ## Real-World Applications
 
 - Wildlife conservation

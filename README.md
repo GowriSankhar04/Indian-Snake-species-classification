@@ -21,7 +21,7 @@ Slitherin is an AI-powered mobile application that identifies Indian snake speci
 - [Project Status](#project-status)
 - [Real-World Applications](#real-world-applications)
 - [Research](#research)
-- [Dataset & Acknowledgements](dataset-&-acknowledgements)
+- [Dataset & Acknowledgements](#dataset--acknowledgements)
 - [License](#license)
 
 ---

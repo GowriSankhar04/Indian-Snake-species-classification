@@ -21,6 +21,7 @@ Slitherin is an AI-powered mobile application that identifies Indian snake speci
 - [Project Status](#project-status)
 - [Real-World Applications](#real-world-applications)
 - [Research](#research)
+- [Dataset & Acknowledgements](dataset-&-acknowledgements)
 - [License](#license)
 
 ---
@@ -145,9 +146,19 @@ To improve accessibility across India, the app supports:
 
 The project is being extended into a research publication, with ongoing work on performance evaluation, comparative analysis of deep learning architectures, methodology documentation, and manuscript preparation.
 
+## Dataset & Acknowledgements
+
+This project uses snake image data from:
+
+**Giant Snake Data (60+ species) – Kaggle's Biggest**
+Source: Kaggle
+Link: https://www.kaggle.com/datasets/shouvikdey21/giant-snake-data60-species-kaggles-biggest
+
+The dataset is distributed under the MIT License. See [THIRD_PARTY_LICENSES.md](./THIRD_PARTY_LICENSES.md) for the full license text and copyright notice.
+
 ## License
 
-*(Add your preferred license here — e.g., MIT, Apache 2.0 — and note any usage restrictions for the dataset or model if applicable.)*
+* Apache 2.0*
 
 ---
 
